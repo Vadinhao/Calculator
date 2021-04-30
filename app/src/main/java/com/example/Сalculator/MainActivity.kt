@@ -61,6 +61,10 @@ class MainActivity : AppCompatActivity(), ItemAdapter.OnItemClickListener {
                 calculator.number(strOnClickedItem)
                 outputResult(binding, calculator)
             }
+            isEmpty(strOnClickedItem) -> {
+                calculator.equality()
+                outputResult(binding, calculator)
+            }
             isNumber(strOnClickedItem) -> {
                 calculator.number(strOnClickedItem)
                 outputResult(binding, calculator)
@@ -90,6 +94,10 @@ class MainActivity : AppCompatActivity(), ItemAdapter.OnItemClickListener {
 
     private fun isComma(str: String): Boolean {
         return str == this.getString(R.string.comma)
+    }
+
+    private fun isEmpty(str: String): Boolean {
+        return str == this.getString(R.string.empty)
     }
 
     private fun isNumber(str: String): Boolean {
