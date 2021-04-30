@@ -198,7 +198,7 @@ class OperationsAdd : InterfaceSetOperation {
 
 class OperationsSub : InterfaceSetOperation {
     override fun operation(d1: Double, d2: Double): Double {
-        return Math.round(d1 - d2 * 100000.0) / 100000.0
+        return d1 - d2
     }
 }
 
