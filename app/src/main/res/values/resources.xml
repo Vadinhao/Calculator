@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin">4dp</dimen>
+    <dimen name="zero_margin">0dp</dimen>
+    <dimen name="textView_margin">48dp</dimen>
+    <dimen name="textView_marginTop">180dp</dimen>
+    <dimen name="buttonSize">78dp</dimen>
+    //
+    <dimen name="textViewTextSize">48sp</dimen>
+    <dimen name="buttonTextSize">28sp</dimen>
+</resources>

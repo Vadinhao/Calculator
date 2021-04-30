@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout1"
+    android:layout_width="@dimen/buttonSize"
+    android:layout_height="@dimen/buttonSize"
+    android:layout_marginLeft="@dimen/standard_margin"
+    android:layout_marginTop="@dimen/standard_margin"
+    android:layout_marginRight="@dimen/standard_margin"
+    android:layout_marginBottom="@dimen/standard_margin">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/roundedbutton_dark_gray"
+        android:textSize="@dimen/buttonTextSize"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
